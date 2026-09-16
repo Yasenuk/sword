@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import { ScrollProvider, useScroll } from '../features';
 
-import styles from '../../app/page.module.css';
+import styles from '@/app/page.module.css';
+import { ScrollProvider, useScroll } from '@/libs/features';
 
 export const Scroll = React.forwardRef<
 	HTMLDivElement,

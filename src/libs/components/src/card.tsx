@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-import styles from './page.module.css';
+import styles from '@/app/page.module.css';
 
 const Card = () => {
 	const cardRef = React.useRef<HTMLDivElement>(null);
